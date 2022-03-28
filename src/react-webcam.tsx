@@ -48,6 +48,7 @@ interface ScreenshotDimensions {
   height: number;
 }
 
+//ChildrenProps get screenshot
 interface ChildrenProps {
   getScreenshot: (screenshotDimensions?: ScreenshotDimensions) => string | null;
 }
